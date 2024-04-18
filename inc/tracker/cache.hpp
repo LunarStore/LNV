@@ -1,6 +1,6 @@
-#ifndef __02_CACHE_HPP__
+#ifndef __CACHE_HPP__
 
-#define __02_CACHE_HPP__
+#define __CACHE_HPP__
 
 #include <lib_acl.hpp>
 

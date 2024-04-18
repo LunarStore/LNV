@@ -29,7 +29,7 @@ extern std::vector<std::string> g_appids;   // 应用ID表
 extern std::vector<std::string> g_maddrs;   // MySQL地址表
 extern std::vector<std::string> g_raddrs;   // Redis地址表
 extern acl::redis_client_pool* g_rconns;    // Redis连接池
-extern std::string h_hostname;  // 主机名
+extern std::string g_hostname;  // 主机名
 extern std::map<std::string, std::list<storage_info_t>> g_groups;   // 组表
 extern pthread_mutex_t g_mutex; // 全局锁
 

@@ -16,12 +16,15 @@
 /*
 *   |包体长度（8）|命令（1）|状态（1）|错误号（2）|错误描述（<=1024）|
 */
-#define ERROR_NUM_SIZE 2    // 错误号字节数
+#define ERROR_NUMB_SIZE 2    // 错误号字节数
 #define ERROR_DESC_SIZE 1024    // 错误描述最大字节数
 
 /*
 *   |包体长度（8）|命令（1）|状态（1）|应用ID（16）|用户ID（256)|文件ID（128）|
 */
+#define APPID_SIZE   16 // 应用ID最大字节数(含结尾空字符)
+#define USERID_SIZE 256 // 用户ID最大字节数(含结尾空字符)
+#define FILEID_SIZE 128 // 文件ID最大字节数(含结尾空字符)
 
 typedef struct storage_join_body {
     char sjb_version[STORAGE_VERSION_MAX + 1];  // 版本

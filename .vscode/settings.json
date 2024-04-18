@@ -65,6 +65,8 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "map": "cpp",
+        "set": "cpp"
     }
 }

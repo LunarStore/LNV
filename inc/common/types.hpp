@@ -7,7 +7,7 @@
 #define OK  0           // 成功
 #define ERROR -1        // 本地错误
 #define SOCKET_ERROR -2 // 套接字通信错误
-#define SOCKET_ERROR -3 // 服务器状态异常
+#define STATUS_ERROR -3 // 服务器状态异常
 
 // 缓存
 #define TRACKER_REDIS_PREFIX "tracker"  // 跟踪服务器Redis前缀

@@ -23,7 +23,7 @@ private:
     int join(const storage_join_t* sj, const char* saddr) const;
 
     // 将存储服务器标为活动
-    int beat(const char* groupname, const char hostname,
+    int beat(const char* groupname, const char* hostname,
         const char* saddr) const;
 
     // 响应客户机存储服务器地址列表
