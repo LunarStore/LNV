@@ -1,8 +1,8 @@
 // 跟踪服务器
 // 声明存储服务器状态检查线程类
 //
-#ifndef __STATUS_HPP__
-#define __STATUS_HPP__
+#ifndef __TRACKER_STATUS_HPP__
+#define __TRACKER_STATUS_HPP__
 
 #include <lib_acl.hpp>
 //

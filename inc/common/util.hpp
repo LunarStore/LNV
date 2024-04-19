@@ -1,5 +1,5 @@
-#ifndef __UTIL_HPP__
-#define __UTIL_HPP__
+#ifndef __COMMON_UTIL_HPP__
+#define __COMMON_UTIL_HPP__
 
 #include <string>
 #include <vector>

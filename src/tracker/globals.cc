@@ -31,6 +31,6 @@ std::vector<std::string> g_appids;   // 应用ID表
 std::vector<std::string> g_maddrs;   // MySQL地址表
 std::vector<std::string> g_raddrs;   // Redis地址表
 acl::redis_client_pool* g_rconns;    // Redis连接池
-std::string h_hostname;  // 主机名
+std::string g_hostname;  // 主机名
 std::map<std::string, std::list<storage_info_t>> g_groups;   // 组表
 pthread_mutex_t g_mutex = PTHREAD_MUTEX_INITIALIZER; // 全局锁

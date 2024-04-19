@@ -1,8 +1,8 @@
 // 公共模块
 // 定义与报文规约有关的宏和数据类型
 
-#ifndef __PROTO_HPP__
-#define __PROTO_HPP__
+#ifndef __COMMON_PROTO_HPP__
+#define __COMMON_PROTO_HPP__
 
 #include "common/types.hpp"
 /*

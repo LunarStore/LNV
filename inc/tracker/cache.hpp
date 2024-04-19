@@ -1,6 +1,6 @@
-#ifndef __CACHE_HPP__
+#ifndef __TRACKER_CACHE_HPP__
 
-#define __CACHE_HPP__
+#define __TRACKER_CACHE_HPP__
 
 #include <lib_acl.hpp>
 

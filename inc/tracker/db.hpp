@@ -1,6 +1,6 @@
-#ifndef __DB_HPP__
+#ifndef __TRACKER_DB_HPP__
 
-#define __DB_HPP__
+#define __TRACKER_DB_HPP__
 
 #include <string>
 #include <vector>

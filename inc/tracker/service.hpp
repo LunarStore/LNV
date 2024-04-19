@@ -1,5 +1,5 @@
-#ifndef __SERVICE_HPP__
-#define __SERVICE_HPP__
+#ifndef __TRACKER_SERVICE_HPP__
+#define __TRACKER_SERVICE_HPP__
 
 #include <lib_acl.hpp>
 #include <common/types.hpp>

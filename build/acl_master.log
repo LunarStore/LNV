@@ -1,0 +1,3 @@
+2024/04/18 15:06:23 test_main.bin (pid=14372)(info): log_event_mode(929): use kernel_event
+2024/04/18 15:06:23 test_main.bin (pid=14372)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/18 15:06:23 test_main.bin (pid=14372)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_main.bin daemon started, log: acl_master.log

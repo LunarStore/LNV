@@ -1,6 +1,6 @@
-#ifndef __GLOBALS_HPP__
+#ifndef __TRACKER_GLOBALS_HPP__
 
-#define __GLOBALS_HPP__
+#define __TRACKER_GLOBALS_HPP__
 
 #include <vector>
 #include <string>
@@ -21,7 +21,7 @@ extern int cfg_interval;    // 存储服务器状态检查间隔秒数。
 extern int cfg_mtimeout;    // MySQL读写超时
 extern int cfg_maxconns;    // Redis连接池最大连接数。
 extern int cfg_ctimeout;    // Redis连接超时
-extern int cfg_rtimeout;    // Redis读写超时
+extern int cfg_rwtimeout;    // Redis读写超时
 extern int cfg_ktimeout;    // Redis键超时
 extern acl::master_int_tbl cfg_int[];   // 整形配置表。
 

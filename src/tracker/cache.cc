@@ -81,7 +81,7 @@ int cache_c::set(const char* key, const char* value, int timeout /*= -1*/) const
     redis.set_client(rconn);
 
     if (timeout < 0) {
-        timeout = cfg_rtimeout;
+        timeout = cfg_rwtimeout;
     }
 
     if (!redis.setex(tracker_key.c_str(), value, timeout)) {

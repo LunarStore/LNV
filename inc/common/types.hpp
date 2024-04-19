@@ -1,5 +1,5 @@
-#ifndef __TYPES_HPP__
-#define __TYPES_HPP__
+#ifndef __COMMON_TYPES_HPP__
+#define __COMMON_TYPES_HPP__
 
 #include <netinet/in.h>
 
