@@ -27,7 +27,7 @@ int db_c::connect(void) {
 	for (std::vector<std::string>::const_iterator maddr =
 		g_maddrs.begin(); maddr != g_maddrs.end(); ++maddr)
 		if ((m_mysql = mysql_real_connect(mysql, maddr->c_str(),
-			"root", "123456", "tnv_idsdb", 0, NULL, 0)))
+			"root", "198181", "tnv_idsdb", 0, NULL, 0)))
 			return OK;
 
 	logger_error("connect database fail: %s",
