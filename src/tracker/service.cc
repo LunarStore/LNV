@@ -359,7 +359,7 @@ int service_c::beat(const char* groupname, const char* hostname,
             it_si != it_gp->second.end();
             it_si++) {
             
-            if (!strcmp(it_si->si_hostname, groupname) &&
+            if (!strcmp(it_si->si_hostname, hostname) &&
                 !strcmp(it_si->si_addr, saddr)) {
                 it_si->si_btime = time(nullptr);
                 it_si->si_status = STORAGE_STATUS_ACTIVE;

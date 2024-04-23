@@ -25,11 +25,11 @@ db_c::~db_c(void) {
 int db_c::connect(void) {
 	MYSQL* mysql = m_mysql;
 
-	// 编历MySQL地址表，尝试连接数据库
+	// 遍历MySQL地址表，尝试连接数据库
 	for (std::vector<std::string>::const_iterator maddr =
 		g_maddrs.begin(); maddr != g_maddrs.end(); ++maddr)
 		if ((m_mysql = mysql_real_connect(mysql, maddr->c_str(),
-			"root", "198181", "tnv_storagedb", 0, NULL, 0)))
+			"root", "123456", "tnv_storagedb", 0, NULL, 0)))
 			return OK;
 
 	logger_error("connect database fail: %s",
@@ -137,13 +137,13 @@ int db_c::set(char const* appid, char const* userid, char const* fileid,
 }
 
 // 删除文件ID
-int db_c::del(char const* appid, char const* userid,
+int db_c::del(char const* appid, char const*userid,
 	char const* fileid) const {
 	// 先从缓存中删除文件ID
 	cache_c cache;
 	acl::string key;
 	key.format("uid:fid:%s:%s", userid, fileid);
-	if (cache.del(key) == OK)
+	if (cache.del(key) != OK)
 		logger_warn("delete cache fail: appid: %s, "
 			"userid: %s, fileid: %s", appid, userid, fileid);
 
@@ -179,17 +179,17 @@ std::string db_c::table_of_user(char const* userid) const {
 	char tablename[10];
 
 	sprintf(tablename, "t_file_%02d",
-		hash(userid, strlen(userid)) & 0x7FFFFFFF % 3 + 1);
+		(hash(userid, strlen(userid)) & 0x7FFFFFFF) % 3 + 1);
 
 	return tablename;
 }
- 
+
 // 计算哈希值
 unsigned int db_c::hash(char const* buf, size_t len) const {
 	unsigned int h = 0;
 
 	for (size_t i = 0; i < len; ++i)
-		h ^= i&1 ? ~(h<<11 ^ buf[i] ^ h>>5) : h<<7 ^ buf[i] ^ h>>3;
-	
+		h ^= i&1 ? ~(h<<11^buf[i]^h>>5) : h<<7^buf[i]^h>>3;
+
 	return h;
 }

@@ -1,3 +1,263 @@
 2024/04/18 15:06:23 test_main.bin (pid=14372)(info): log_event_mode(929): use kernel_event
 2024/04/18 15:06:23 test_main.bin (pid=14372)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
 2024/04/18 15:06:23 test_main.bin (pid=14372)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_main.bin daemon started, log: acl_master.log
+2024/04/23 14:19:04 test_tracker.bin (pid=2106)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:19:04 test_tracker.bin (pid=2106)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:19:04 test_tracker.bin (pid=2106)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 14:19:26 test_storage.bin (pid=2233)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:19:26 test_storage.bin (pid=2233)(info): server.cc(92), proc_on_init: cfg_gpname: group001, cfg_spaths: ../data, cfg_taddrs: 127.0.0.1:21000, cfg_iaddrs: 127.0.0.1:22000, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_bindport: 23000, cfg_interval: 10, cfg_mtimeout: 30, cfg_maxconns: 600, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:19:26 test_storage.bin (pid=2233)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_storage.bin daemon started, log: acl_master.log
+2024/04/23 14:19:26 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:26 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:26 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:26 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:26 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:28 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:28 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:28 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:28 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:28 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:30 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:30 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:30 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:30 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:30 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:32 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:32 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:32 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:32 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:32 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:34 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:34 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:34 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:34 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:34 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:36 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:36 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:36 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:36 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:36 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:38 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:38 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:38 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:38 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:38 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:40 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:40 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:40 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:40 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:40 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:42 test_tracker.bin (pid=2106)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:19:42 test_tracker.bin (pid=2106)(error): service.cc(587), error: invalid body length: -6124895493223874560 < 0
+2024/04/23 14:19:42 test_tracker.bin (pid=2106)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 14:19:42 test_storage.bin (pid=2233)(info): tracker.cc(101), join: bodylen: 5188146770730811392, command: 100, status: -3
+2024/04/23 14:19:42 test_storage.bin (pid=2233)(error): tracker.cc(118), join: invalid body length: 5188146770730811392 > 1026
+2024/04/23 14:19:44 test_storage.bin (pid=2233)(error): src/net/connect/acl_inet_connect.c(419) acl_inet_timed_connect: connect 127.0.0.1:21000 error Connection refused
+2024/04/23 14:19:44 test_storage.bin (pid=2233)(error): tracker.cc(26), run: connect tracker fail, taddr: 127.0.0.1:21000
+2024/04/23 14:28:00 test_tracker.bin (pid=2532)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:28:00 test_tracker.bin (pid=2532)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:28:00 test_tracker.bin (pid=2532)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 14:29:17 test_tracker.bin (pid=2947)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:29:17 test_tracker.bin (pid=2947)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:29:17 test_tracker.bin (pid=2947)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 14:45:51 test_tracker.bin (pid=6714)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:45:51 test_tracker.bin (pid=6714)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:45:51 test_tracker.bin (pid=6714)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 14:49:06 test_storage.bin (pid=7471)(info): log_event_mode(929): use kernel_event
+2024/04/23 14:49:06 test_storage.bin (pid=7471)(info): server.cc(92), proc_on_init: cfg_gpname: group001, cfg_spaths: ../data, cfg_taddrs: 127.0.0.1:21000, cfg_iaddrs: 127.0.0.1:22000, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_bindport: 23000, cfg_interval: 10, cfg_mtimeout: 30, cfg_maxconns: 600, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 14:49:06 test_storage.bin (pid=7471)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_storage.bin daemon started, log: acl_master.log
+2024/04/23 14:49:06 test_tracker.bin (pid=6714)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 14:49:36 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:50:07 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:50:37 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:51:07 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:51:37 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:52:08 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:52:38 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:53:08 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:53:38 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:54:08 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:54:38 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:55:09 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:55:39 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:56:09 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:56:39 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:57:09 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:57:40 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:58:10 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:58:40 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 14:59:10 test_tracker.bin (pid=6714)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 15:01:23 test_tracker.bin (pid=8938)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:01:23 test_tracker.bin (pid=8938)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:01:23 test_tracker.bin (pid=8938)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 15:01:39 test_storage.bin (pid=8986)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:01:39 test_storage.bin (pid=8986)(info): server.cc(92), proc_on_init: cfg_gpname: group001, cfg_spaths: ../data, cfg_taddrs: 127.0.0.1:21000, cfg_iaddrs: 127.0.0.1:22000, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_bindport: 23000, cfg_interval: 10, cfg_mtimeout: 30, cfg_maxconns: 600, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:01:39 test_storage.bin (pid=8986)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_storage.bin daemon started, log: acl_master.log
+2024/04/23 15:01:39 test_tracker.bin (pid=8938)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:01:39 test_tracker.bin (pid=8938)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:01:39 test_tracker.bin (pid=8938)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:01:39 2024
+, jtime: Tue Apr 23 15:01:39 2024
+
+2024/04/23 15:01:39 test_storage.bin (pid=8986)(info): tracker.cc(101), join: bodylen: 0, command: 100, status: 0
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(error): service.cc(374), beat: strage not found, groupname: group001, hostname: lunar-virtual-machine, saddr: 127.0.0.1
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(error): service.cc(587), error: mark storage as active fail
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 15:01:49 test_storage.bin (pid=8986)(info): tracker.cc(180), beat: bodylen: 54, command: 100, status: -3
+2024/04/23 15:01:49 test_storage.bin (pid=8986)(error): tracker.cc(215), beat: beat fail, errnumb: -1, errdesc: [lunar-virtual-machine] mark storage as active fail
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:01:49 test_tracker.bin (pid=8938)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:01:39 2024
+, jtime: Tue Apr 23 15:01:49 2024
+
+2024/04/23 15:01:49 test_storage.bin (pid=8986)(info): tracker.cc(101), join: bodylen: 0, command: 100, status: 0
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(error): service.cc(374), beat: strage not found, groupname: group001, hostname: lunar-virtual-machine, saddr: 127.0.0.1
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(error): service.cc(587), error: mark storage as active fail
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): server.cc(141), thread_on_close: client disconnect, from: 127.0.0.1
+2024/04/23 15:01:59 test_storage.bin (pid=8986)(info): tracker.cc(180), beat: bodylen: 54, command: 100, status: -3
+2024/04/23 15:01:59 test_storage.bin (pid=8986)(error): tracker.cc(215), beat: beat fail, errnumb: -1, errdesc: [lunar-virtual-machine] mark storage as active fail
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:01:59 test_tracker.bin (pid=8938)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:01:39 2024
+, jtime: Tue Apr 23 15:01:59 2024
+
+2024/04/23 15:01:59 test_storage.bin (pid=8986)(info): tracker.cc(101), join: bodylen: 0, command: 100, status: 0
+2024/04/23 15:25:18 test_tracker.bin (pid=9553)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:25:18 test_tracker.bin (pid=9553)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:25:18 test_tracker.bin (pid=9553)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 15:26:32 test_tracker.bin (pid=9822)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:26:32 test_tracker.bin (pid=9822)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:26:32 test_tracker.bin (pid=9822)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 15:26:38 test_storage.bin (pid=9893)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:26:38 test_storage.bin (pid=9893)(info): server.cc(92), proc_on_init: cfg_gpname: group001, cfg_spaths: ../data, cfg_taddrs: 127.0.0.1:21000, cfg_iaddrs: 127.0.0.1:22000, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_bindport: 23000, cfg_interval: 10, cfg_mtimeout: 30, cfg_maxconns: 600, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:26:38 test_storage.bin (pid=9893)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_storage.bin daemon started, log: acl_master.log
+2024/04/23 15:26:38 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:26:38 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:26:38 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:26:38 2024
+
+2024/04/23 15:26:38 test_storage.bin (pid=9893)(info): tracker.cc(101), join: bodylen: 0, command: 100, status: 0
+2024/04/23 15:26:48 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:26:48 test_tracker.bin (pid=9822)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:27:18 test_storage.bin (pid=9893)(error): tracker.cc(166), beat: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:27:46 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:27:46 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:27:46 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:27:18 2024
+
+2024/04/23 15:27:48 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:28:20 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:28:29 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:28:52 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:29:15 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:29:15 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 46256 >= 100, qlen=1
+2024/04/23 15:29:24 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:29:57 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:29:57 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:29:57 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:29:57 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 42306 >= 100, qlen=0
+2024/04/23 15:29:57 test_tracker.bin (pid=9822)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 15:29:57 test_tracker.bin (pid=9822)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 20462 >= 100, qlen=3
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 20461 >= 100, qlen=2
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): server.cc(133), thread_on_timeout: read timeout, from: 127.0.0.1
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 20459 >= 100, qlen=0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:29:26 2024
+
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(warn): src/thread/acl_pthread_pool.c(269), worker_run: schedule: 20460 >= 100, qlen=0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:28:54 2024
+
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:27:50 2024
+
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:28:22 2024
+
+2024/04/23 15:30:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:29:59 2024
+
+2024/04/23 15:30:29 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:30:56 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:30:56 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:30:56 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:30:31 2024
+
+2024/04/23 15:31:01 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:31:18 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:31:18 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:31:18 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:31:03 2024
+
+2024/04/23 15:31:33 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:32:05 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:32:07 2024
+
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:32:12 test_tracker.bin (pid=9822)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:26:38 2024
+, jtime: Tue Apr 23 15:31:35 2024
+
+2024/04/23 15:32:37 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection timed out, from: 127.0.0.1
+2024/04/23 15:32:58 test_storage.bin (pid=9893)(error): tracker.cc(87), join: read fail: Connection reset by peer, from: 127.0.0.1
+2024/04/23 15:34:44 test_tracker.bin (pid=12071)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:34:45 test_tracker.bin (pid=12071)(info): server.cc(63), proc_on_init: cfg_appids: tnvideo, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_interval: 120, cfg_mtimeout: 30, cfg_maxconns: 0, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:34:45 test_tracker.bin (pid=12071)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_tracker.bin daemon started, log: acl_master.log
+2024/04/23 15:34:53 test_storage.bin (pid=12107)(info): log_event_mode(929): use kernel_event
+2024/04/23 15:34:53 test_storage.bin (pid=12107)(info): server.cc(92), proc_on_init: cfg_gpname: group001, cfg_spaths: ../data, cfg_taddrs: 127.0.0.1:21000, cfg_iaddrs: 127.0.0.1:22000, cfg_maddrs: 127.0.0.1, cfg_raddrs: 127.0.0.1:6379, cfg_bindport: 23000, cfg_interval: 10, cfg_mtimeout: 30, cfg_maxconns: 600, cfg_ctimeout: 10, cfg_rtimeout: 10, cfg_ktimeout: 60
+2024/04/23 15:34:53 test_storage.bin (pid=12107)(info): acl_threads_server_main(1650), /root/workspace/TNV/bin/test_storage.bin daemon started, log: acl_master.log
+2024/04/23 15:34:53 test_tracker.bin (pid=12071)(info): server.cc(108), thread_on_accept: connect, from: 127.0.0.1
+2024/04/23 15:34:53 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 171, command: 10, status: 0
+2024/04/23 15:34:53 test_tracker.bin (pid=12071)(info): service.cc(83), join: storage join version: 1.0, groupname: group001,hostname: lunar-virtual-machine, port: 23000, stime: Tue Apr 23 15:34:53 2024
+, jtime: Tue Apr 23 15:34:53 2024
+
+2024/04/23 15:34:53 test_storage.bin (pid=12107)(info): tracker.cc(101), join: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:03 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:03 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:03 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:13 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:13 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:13 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:23 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:23 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:23 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:33 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:33 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:33 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:43 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:43 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:43 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:35:53 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:35:53 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:35:53 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:03 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:03 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:03 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:13 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:13 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:13 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:23 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:23 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:23 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:33 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:33 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:33 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:43 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:43 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:43 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0
+2024/04/23 15:36:53 test_tracker.bin (pid=12071)(info): service.cc(19), business: body_length: 146, command: 11, status: 0
+2024/04/23 15:36:53 test_tracker.bin (pid=12071)(info): service.cc(130), beat: storage beat, groupname: group001,hostname: lunar-virtual-machine
+2024/04/23 15:36:53 test_storage.bin (pid=12107)(info): tracker.cc(180), beat: bodylen: 0, command: 100, status: 0

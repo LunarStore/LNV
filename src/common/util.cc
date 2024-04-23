@@ -16,7 +16,7 @@ void llton(long long ll, char* n) {
 long long ntoll(const char* n) {
     long long ll = 0;
     for (int i = 0; i < sizeof(ll); i++) {
-        ll  = ll | ((long long)(unsigned char)n[i] << (8 * (sizeof(ll)) - 1 - i));
+        ll  = ll | ((long long)(unsigned char)n[i] << (8 * (sizeof(ll) - 1 - i) ));
     }
 
     return ll;
@@ -33,7 +33,7 @@ void lton(long l, char* n) {
 long ntol(const char* n) {
     long l = 0;
     for (int i = 0; i < sizeof(l); i++) {
-        l  = l | ((long)(unsigned char)n[i] << (8 * (sizeof(l)) - 1 - i));
+        l  = l | ((long)(unsigned char)n[i] << (8 * (sizeof(l) - 1 - i) ));
     }
 
     return l;
@@ -50,7 +50,7 @@ void ston(short s, char* n) {
 short ntos(const char* n) {
     short s = 0;
     for (int i = 0; i < sizeof(s); i++) {
-        s  = s | ((short)(unsigned char)n[i] << (8 * (sizeof(s)) - 1 - i));
+        s  = s | ((short)(unsigned char)n[i] << (8 * (sizeof(s) - 1 - i) ));
     }
 
     return s;
